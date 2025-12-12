@@ -1,0 +1,59 @@
+.App {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para el ProductList de React */
+.product-list-container {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: #f9f9f9;
+  border-radius: 10px;
+  border-left: 4px solid #ff69b4;
+  transition: all 0.3s ease;
+}
+
+.product-item:hover {
+  background: #fff5f7;
+  transform: translateX(5px);
+}
+
+.product-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.product-price {
+  color: #ff1493;
+  font-weight: 600;
+}
+
+.product-stock {
+  color: #4169e1;
+  font-weight: 500;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: #ff4444;
+  background: #ffe6e6;
+  border-radius: 10px;
+  margin: 1rem;
+}
